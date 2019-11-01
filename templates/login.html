@@ -9,7 +9,7 @@
   {%if error%}
     <font color="red"> {{error}} </font>
   {%endif%}
-
+  <div class="center">
     <h1> Login Below: </h1>
     <form action = "/auth">
       <p> Username: </p>
@@ -22,6 +22,7 @@
       <br>
       <input type = "submit" name = "sub1" value = "login">
   </form>
+  </div>
   {% endblock %}
 
   {% block footer %}
