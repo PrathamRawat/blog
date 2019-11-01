@@ -24,3 +24,10 @@ input {
   border-radius: 5px;
 
 }
+
+.center{
+  position: relative;
+  margin: auto;
+  width: 50%;
+  text-align: center;
+}
